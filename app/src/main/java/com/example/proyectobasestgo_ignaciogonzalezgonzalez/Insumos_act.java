@@ -52,6 +52,6 @@ public class Insumos_act extends AppCompatActivity {
                 break;
             }
         }
-        result.setText("La opcion seleccionada es: " + opcion + "\nSu precio es: " + resultado);
+        result.setText("La opcion seleccionada es: " + opcion + "\nSu precio es: " + resultado + " Mas el impuesto");
     }
 }

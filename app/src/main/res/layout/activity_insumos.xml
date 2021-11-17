@@ -23,10 +23,10 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="204dp"
-                android:layout_height="39dp"
+                android:layout_width="216dp"
+                android:layout_height="51dp"
                 android:layout_marginTop="16dp"
-                android:text="Bienvenido a Biofit"
+                android:text="Bienvenido a Joyeria Gonzalez"
                 android:textColor="#009688"
                 android:textSize="20dp"
                 android:textStyle="bold|italic"
@@ -37,10 +37,10 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="309dp"
-                android:layout_height="95dp"
+                android:layout_width="307dp"
+                android:layout_height="108dp"
                 android:layout_marginTop="24dp"
-                android:text="Biofit es la herramienta fitness definitiva que busca en esta seccion manejar el control de los insumos y calcular los precios finales de mantencion de cada insumo"
+                android:text="Esta aplicación permite el registro y control de las ventas realizadas, EN ESTE APARTADO PODRAS VER EL VALOR DE CADA PRODUCTO DISPONIBLE."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -85,7 +85,7 @@
                 android:layout_width="255dp"
                 android:layout_height="91dp"
                 android:layout_marginTop="12dp"
-                android:text="TextView"
+                android:text=""
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.504"
                 app:layout_constraintStart_toStartOf="parent"

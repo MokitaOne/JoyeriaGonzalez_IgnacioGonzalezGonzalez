@@ -3,6 +3,7 @@ package com.example.proyectobasestgo_ignaciogonzalezgonzalez;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.icu.text.IDNA;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -23,7 +24,7 @@ public class Home_act extends AppCompatActivity {
         videoview = findViewById(R.id.vw);
 
         //obtengo el video
-        String ruta = "android.resource://" + getPackageName() + "/" + R.raw.video;
+        String ruta = "android.resource://" + getPackageName() + "/" + R.raw.videoo;
         Uri uri = Uri.parse(ruta);//Parseo la ruta
         videoview.setVideoURI(uri);
         videoview.start();
@@ -59,5 +60,21 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void misClases(View view)
+    {
+        Intent i = new Intent(this, Clases_act.class);
+        startActivity(i);
+    }
+
+    public void gramosAPesos(View view)
+    {
+        Intent i = new Intent(this, Gramera_act.class);
+        startActivity(i);
+    }
+    public void informacion(View view)
+    {
+        Intent i = new Intent(this, Info_act.class);
+        startActivity(i);
+    }
 
 }

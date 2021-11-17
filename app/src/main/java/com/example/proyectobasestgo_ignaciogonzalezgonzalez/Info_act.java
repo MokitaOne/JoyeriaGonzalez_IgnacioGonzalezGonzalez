@@ -14,7 +14,7 @@ public class Info_act extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
     }
-    //Intent implicito no especifica la accion que quiere realizar
+    //Intent implicito no especifica la accion que quiere realizar, funcionalidad requerida.
     public void Marcar(View view)
     {
         Intent i = new Intent(Intent.ACTION_DIAL);//Accion para marcar un numero

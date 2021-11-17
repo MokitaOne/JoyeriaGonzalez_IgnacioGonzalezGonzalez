@@ -21,12 +21,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="75dp"
+                android:layout_height="56dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.851"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.021"
+                app:srcCompat="@drawable/logooo" />
+
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="204dp"
-                android:layout_height="27dp"
+                android:layout_width="219dp"
+                android:layout_height="37dp"
                 android:layout_marginTop="16dp"
-                android:text="Bienvenido a Biofit"
+                android:text="Bienvenido a Joyeria Gonzalez"
                 android:textColor="#BC2525"
                 android:textSize="16sp"
                 android:textStyle="bold"
@@ -40,7 +52,7 @@
                 android:layout_width="278dp"
                 android:layout_height="87dp"
                 android:layout_marginTop="24dp"
-                android:text="Biofit es la herramienta definitiva del fitnes, es una suite digital que permite mejorar y ver el seguimiento del individuo, tambien ofrece la gestion de centros fitnes y gimnacios, conocenos en biofit.cl"
+                android:text="En este apartado encontraras el ingreso de las ventas y podras conocer los precios de los productos."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.533"
                 app:layout_constraintStart_toStartOf="parent"
@@ -48,13 +60,12 @@
 
             <VideoView
                 android:id="@+id/vw"
-                android:layout_width="253dp"
-                android:layout_height="108dp"
+                android:layout_width="286dp"
+                android:layout_height="112dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"
-                app:layout_constraintVertical_bias="0.407" />
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -85,38 +96,29 @@
 
                 <ImageButton
                     android:id="@+id/imageButton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="78dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/complexion"
+                    app:srcCompat="@drawable/ventasii"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/clases"
+                    app:srcCompat="@drawable/productossi"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
                 <ImageButton
                     android:id="@+id/imageButton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
-                    app:srcCompat="@drawable/blood"
-                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-                <ImageButton
-                    android:id="@+id/imageButton6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/antropometria"
+                    app:srcCompat="@drawable/gramos"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -137,8 +139,8 @@
             android:layout_height="match_parent">
 
             <TableLayout
-                android:layout_width="317dp"
-                android:layout_height="135dp"
+                android:layout_width="332dp"
+                android:layout_height="161dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -150,36 +152,38 @@
 
                     <Button
                         android:id="@+id/button6"
-                        android:layout_width="match_parent"
+                        android:layout_width="145dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="#3F51B5"
-                        android:text="Mis Rutinas"
+                        android:onClick="gramosAPesos"
+                        android:text="Gramos A Pesos"
                         app:cornerRadius="25dp" />
 
                     <Button
                         android:id="@+id/button5"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="#3F51B5"
-                        android:text="Mis Clases"
+                        android:onClick="misClases"
+                        android:text="Mis Ventas"
                         app:cornerRadius="25dp" />
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_width="328dp"
+                    android:layout_height="83dp">
 
                     <Button
                         android:id="@+id/button8"
-                        android:layout_width="match_parent"
+                        android:layout_width="147dp"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="#3F51B5"
                         android:minHeight="48dp"
                         android:onClick="Insumos"
-                        android:text="Mis Insumos"
+                        android:text="Productos y precios"
                         app:cornerRadius="25dp"
                         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
@@ -190,7 +194,8 @@
                         android:layout_margin="10dp"
                         android:backgroundTint="#3F51B5"
                         android:minHeight="48dp"
-                        android:text="Mis Dietas"
+                        android:onClick="informacion"
+                        android:text="Información"
                         app:cornerRadius="25dp"
                         tools:ignore="TouchTargetSizeCheck" />
                 </TableRow>

@@ -21,8 +21,7 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="TODO"
-            app:srcCompat="@drawable/logotipo" />
+            app:srcCompat="@drawable/logooo" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -46,7 +45,7 @@
                 android:layout_width="295dp"
                 android:layout_height="234dp"
                 android:layout_marginTop="24dp"
-                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                android:text="Emprendimiento dedicado a la venta de joyas de plata, ya sea aros, cadenas , anillos, al igual que hacemos pedidos personalizados a su gusto. Se desean visitarnos haga click en el icono de ubicación y encontraras el link con la ubicación de nuestra tienda, y en el icono de llamada lo redirigira directamente a nuestro numero telefonico."
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.545"
                 app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +53,10 @@
 
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="97dp"
-                android:layout_height="36dp"
+                android:layout_width="128dp"
+                android:layout_height="26dp"
                 android:layout_marginTop="20dp"
-                android:text="Contact Us"
+                android:text="Contactanos aqui"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent"
